@@ -1,9 +1,6 @@
 {
   "name": "daoleno",
   "private": true,
-  "engines": {
-    "node": "14.x"
-  },
   "description": "daoleno",
   "version": "1.0.0",
   "author": "DaoLeno <daodaoonline@gmail.com>",
