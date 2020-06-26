@@ -32,8 +32,12 @@ class Footer extends React.Component {
           github
         </a>{' '}
         &bull;{' '}
-        <a href="https://dev.to/" target="_blank" rel="noopener noreferrer">
-          dev.to
+        <a
+          href="https://stackoverflow.com/users/4234243/dao-leno"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          stack overflow
         </a>
       </footer>
     );
