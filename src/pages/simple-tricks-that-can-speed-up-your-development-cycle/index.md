@@ -2,7 +2,6 @@
 title: Simple tricks that can speed up your development cycle
 date: "2019-11-14"
 spoiler: Inventing on Principle
-cta: "react"
 ---
 
 I recently watched Bret Victor's video - Inventing on Principle. That is so inspired. The demos are awesome in their own right. He talked about his principle: **Creators need an immediate connection to what they create.**
@@ -27,7 +26,7 @@ ag -l --html --css --js | entr ./reload-browser.sh chrome
 
 You can download `reload-browser.sh` from [here](https://gist.github.com/daoleno/4e155bb65c433d490b3a70e5a96377c0).
 
-![autohtml](https://thepracticaldev.s3.amazonaws.com/i/pb1w8lgt01mg2xnogi6w.gif)
+![autohtml](./autohtml.gif)
 
 ### Golang sample
 
@@ -37,4 +36,4 @@ When any go files change, my custom run script will be executed. I can build, st
 ag -l --go | entr -c -r ./run.sh
 ```
 
-![autogo](https://thepracticaldev.s3.amazonaws.com/i/2xt0nldtt6c02wqsfpb6.gif)
+![autogo](./autogo.gif)

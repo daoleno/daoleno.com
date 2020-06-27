@@ -2,7 +2,6 @@
 title: Tgraph - A Go package for drawing basic graphics in a terminal
 date: "2020-06-10"
 spoiler: Package can draw some basic graphics in a terminal
-cta: "react"
 ---
 
 
@@ -49,7 +48,7 @@ An example with colors:
 tgraph data1.csv --title "Most Loved/Dreaded Languages" --color red,yellow
 ```
 
-![color graph](https://dev-to-uploads.s3.amazonaws.com/i/qf9q6ijkoiolyxa3c8ac.png)
+![color graph](./color-graph.png)
 
 An example with stacked:
 
@@ -57,4 +56,4 @@ An example with stacked:
 tgraph data1.csv --title "Most Loved/Dreaded Languages" --color red,yellow --stacked
 ```
 
-![stacked graph](https://dev-to-uploads.s3.amazonaws.com/i/qf9q6ijkoiolyxa3c8ac.png)
+![stacked graph](./stacked-graph.png)

@@ -2,7 +2,6 @@
 title: What is higan and how I build it
 date: "2020-05-04"
 spoiler: R.I.P.
-cta: "react"
 ---
 
 
@@ -41,7 +40,7 @@ Higan is a blockchain project based on [cosmos-sdk](https://github.com/cosmos/co
 
 The Cosmos-SDK is a framework for building blockchain applications in Golang. It's like ruby-on-rails for ruby.
 
-![Tendermint stack](https://dev-to-uploads.s3.amazonaws.com/i/z1l75r6k27s1ghylrl9f.jpg)
+![Tendermint stack](./tendermint.jpg)
 
 Higan is a `cosmos-sdk` application. So as shown in the figure.
 
